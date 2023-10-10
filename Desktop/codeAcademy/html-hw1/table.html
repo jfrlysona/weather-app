@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Table</title>
+    <style>
+      body {
+        background-color: rgb(203, 227, 183);
+        display: flex;
+        justify-content: center;
+      }
+      table,
+      td,
+      th {
+        border: none;
+        border-spacing: 0px;
+        font-size: 20px;
+        margin-top: 180px;
+        text-align: left;
+      }
+      img {
+        width: 64px;
+      }
+      th {
+        color: white;
+        background-color: #7aca3a;
+        height: 50px;
+        width: 200px;
+      }
+      td {
+        height: 50px;
+        width: 200px;
+      }
+      .first-color {
+        background-color: #ffffff;
+      }
+      .second-color {
+        background-color: #ececd8;
+      }
+    </style>
+  </head>
+  <body>
+    <table>
+      <tr>
+        <th>Contact name</th>
+        <th>City</th>
+        <th>Country</th>
+        <th>Is Promoted</th>
+      </tr>
+      <tr class="first-color">
+        <td>Maria Andres</td>
+        <td>Berlin</td>
+        <td>
+          <img
+            src="./images/Wikipedia-Flags-DE-Germany-Flag.256.png"
+            alt="germany flag"
+          />
+          Germany
+        </td>
+        <td><input type="checkbox" /></td>
+      </tr>
+      <tr class="second-color">
+        <td>Anna Trujillo</td>
+        <td>Mexico D.F.</td>
+        <td>
+          <img
+            src="./images/Wikipedia-Flags-MX-Mexico-Flag.256.png"
+            alt="mexico flag"
+          />
+          Mexico
+        </td>
+        <td><input type="checkbox" /></td>
+      </tr>
+      <tr class="first-color">
+        <td>Antonio Moreno</td>
+        <td>Mexico D.F.</td>
+        <td>
+          <img
+            src="./images/Wikipedia-Flags-MX-Mexico-Flag.256.png"
+            alt="mexico flag"
+          />
+          Mexico
+        </td>
+        <td><input type="checkbox" /></td>
+      </tr>
+      <tr class="second-color">
+        <td>Thomas Hardy</td>
+        <td>London</td>
+        <td><img src="./images/united-kingdom.png" alt="UK flag" /> UK</td>
+        <td><input type="checkbox" /></td>
+      </tr>
+    </table>
+  </body>
+</html>
